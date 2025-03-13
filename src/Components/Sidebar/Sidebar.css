@@ -1,0 +1,44 @@
+.sidebar-option{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    background-color: white;
+   
+    padding: 20px;
+    cursor: pointer;
+   
+}
+
+.sidebar-option img{
+    width: 22px;
+}
+
+.sidebar-options{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar{
+    width: max(15%,40px);
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    border-right: 1.5px solid lightgray;
+}
+
+.sidebar-option:hover{
+    background: linear-gradient(309deg, rgba(0,181,255,1) 0%, rgba(139,45,253,1) 100%);
+    color: white;
+}
+
+
+
+@media (max-width:900px){
+    .sidebar-option p{
+        display: none;
+    }
+    .sidebar{
+        width: 10%;
+    }
+}

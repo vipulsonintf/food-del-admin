@@ -1,0 +1,17 @@
+.navbar{
+    background: linear-gradient(10deg, rgba(211,255,255,1) 0%, rgba(45,101,253,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 4%;
+    height: 60px;
+    align-items: center;
+    border: none;
+}
+
+.navbar .logo{
+    width: max(10%,85px);
+}
+
+.navbar .profile{
+    width: 40px;
+}

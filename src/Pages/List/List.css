@@ -1,0 +1,14 @@
+.food-list-container{
+    gap: 25px;
+}
+
+.list-table-formate {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
+    color: tomato;
+
+}

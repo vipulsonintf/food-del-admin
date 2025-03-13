@@ -1,0 +1,16 @@
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: start;
+    text-align: start;
+}
+
+.list-container img{
+    width: 5vw;
+   
+}
+
+.cursor{
+    cursor: pointer;
+}
