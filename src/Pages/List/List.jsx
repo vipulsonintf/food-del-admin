@@ -5,7 +5,8 @@ import FoodList from '../../Common/FoodList/FoodList'
 import './List.css'
 
 const List = () => {
-  const url = "http://localhost:8080"
+  // const url = "http://localhost:8080"
+  const url = "https://food-del-backend-rfh9.onrender.com/"
   const [list, setList] = useState([])
 
   const fetchList = async () => {

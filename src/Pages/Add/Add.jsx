@@ -5,7 +5,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const Add = () => {
-  const url = "http://localhost:8080"
+  const url = "https://food-del-backend-rfh9.onrender.com/"
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: '',
@@ -18,7 +18,7 @@ const Add = () => {
     const name = event.target.name;
     const value = event.target.value;
     setData((prev) => ({ ...prev, [name]: value }))
-   
+
   }
 
   const onSubmitHandler = async (event) => {
@@ -79,7 +79,7 @@ const Add = () => {
           </div>
           <div className="add-price flex-col">
             <p>Add Price</p>
-            <input onChange={onChangeHandler} name="price"  value={data.price} type="number" placeholder='$' />
+            <input onChange={onChangeHandler} name="price" value={data.price} type="number" placeholder='$' />
           </div>
         </div>
         <button type='submit' className='add-btn'>Add</button>
